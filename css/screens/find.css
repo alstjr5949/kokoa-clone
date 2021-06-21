@@ -1,5 +1,5 @@
 .cog__dot {
-  background-color: tomato;
+  background-color: var(--purple);
   width: 6px;
   height: 6px;
   border-radius: 3px;
@@ -10,10 +10,9 @@
 }
 
 .recommended-friends {
-  margin: 25px 0px;
+  margin-top: 25px;
   padding: 25px 0px;
   border-top: var(--main-border);
-  border-bottom: var(--main-border);
 }
 
 .recommended-friends__title {
@@ -23,7 +22,8 @@
 
 .recommended-friends span {
   display: block;
-  margin: 100px 0;
+  margin-bottom: 40px;
+  margin-top: 80px;
   text-align: center;
   font-size: 18px;
   color: var(--grey);

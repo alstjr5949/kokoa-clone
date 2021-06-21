@@ -13,12 +13,16 @@
 @import "components/no-mobile.css";
 
 /* Screens */
+@import "screens/start.css";
+@import "screens/home.css";
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/chats.css";
+@import "screens/repositories.css";
 
 body {
   color: #2e363e;

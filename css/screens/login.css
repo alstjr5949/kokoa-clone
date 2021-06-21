@@ -6,13 +6,19 @@
   align-items: center;
 }
 
+.welcome-header i {
+  font-size: 100px;
+  margin-bottom: 30px;
+  color: var(--purple);
+}
+
 .welcome-header__title {
   margin-bottom: 40px;
   font-size: 25px;
 }
 
 .welcome-header__text {
-  width: 60%;
+  width: 70%;
   opacity: 0.6;
 }
 
@@ -39,14 +45,15 @@
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--purple);
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: var(--purple);
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
+  color: white;
 }
 
 #login-form a {

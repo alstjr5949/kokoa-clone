@@ -1,0 +1,16 @@
+@keyframes hoverUp {
+  from {
+    transform: none;
+  }
+  to {
+    box-shadow: 10px 10px 10px whitesmoke;
+  }
+}
+
+.chatting__component {
+  border-radius: 20px;
+}
+
+.chatting__component:hover {
+  animation: hoverUp 0.5s linear forwards;
+}

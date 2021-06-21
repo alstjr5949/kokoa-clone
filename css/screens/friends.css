@@ -36,7 +36,8 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-color: var(--purple);
+  color: white;
   position: absolute;
   width: 100vw;
   height: 100vh;
