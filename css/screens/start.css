@@ -1,0 +1,25 @@
+#splash-screen__start {
+  background-color: var(--purple);
+  color: white;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 128px;
+}
+
+@keyframes rotateI {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+#splash-screen__start i:hover {
+  animation: rotateI 1s linear infinite;
+}

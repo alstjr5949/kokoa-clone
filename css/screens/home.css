@@ -1,0 +1,81 @@
+.home-screen__title {
+  margin-top: 25px;
+  border-bottom: var(--main-border);
+  padding-bottom: 15px;
+}
+
+.home-screen__title-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.home__menu {
+  display: flex;
+  align-items: center;
+}
+
+.home__menu__emo-issue {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #69f0ae;
+  margin-right: 10px;
+}
+
+.home__menu__emo-request {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0277bd;
+  margin-right: 10px;
+}
+
+.home__menu__emo-repository {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--purple);
+  margin-right: 10px;
+}
+
+.home__menu__emo-user {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffa000;
+  margin-right: 10px;
+}
+
+.home__menu .fa-exclamation,
+.home__menu .fa-code-branch,
+.home__menu .fa-book,
+.home__menu .fa-user-friends {
+  color: white;
+}
+
+.home-screen__title-contribution {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.home-screen__title-contribution img {
+  margin-top: 20px;
+}

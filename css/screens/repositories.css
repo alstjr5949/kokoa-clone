@@ -1,0 +1,80 @@
+.repository__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.repository__text-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0366d9;
+  margin-bottom: 10px;
+}
+
+.repository__text-content {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.repository__text-lang {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: var(--grey);
+}
+
+.update-time {
+  margin-left: 30px;
+}
+
+.repository__column {
+  display: flex;
+  align-items: center;
+}
+
+.repository__btn {
+  width: 60px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #fafbfc;
+  border: 1px solid #d9dbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.repository__btn span {
+  font-size: 12px;
+  color: black;
+  font-weight: 600;
+}
+
+@keyframes Twinkle {
+  0% {
+    color: #d9dbdb;
+    transform: none;
+  }
+  50% {
+    color: var(--yellow);
+    transform: scale(1.2);
+  }
+  100% {
+    color: #d9dbdb;
+    transform: none;
+  }
+}
+
+.repository__setting i {
+  margin-right: 3px;
+  font-size: 12px;
+  color: #d9dbdb;
+}
+
+.repository__setting i:hover {
+  will-change: transform;
+  animation: Twinkle 1s linear infinite;
+}
+
+.repository-list {
+  height: 77vh;
+  overflow-y: scroll;
+}
